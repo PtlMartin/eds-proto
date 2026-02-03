@@ -1,5 +1,6 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
 
+
 export default function decorate(block) {
   const ul = document.createElement('ul');
   ul.className = 'teaser-list';
